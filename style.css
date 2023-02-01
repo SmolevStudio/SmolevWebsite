@@ -1,12 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
+
 header{
-    width: 1280px;
+    width: 361px;
     height: 180px;
     background-color: green;
-    text-align: center;
-    margin: auto;
+    text-align: left;
+    margin: left;
     border-radius: 20px;
 }
 
+.aboutus{
+    background-color: rgba(0, 0, 0, 0.193);
+    text-align: left;
+    position: absolute;
+    right: 0;
+    width: 360px;
+   }
+
+   a{
+    padding: 20px;
+   }
+
+   main{
+    background-color: white;
+    padding-bottom: 20px;
+    position: absolute;
+    left: auto;
+   }
+   
 .aside{
     width: 320px;
     height: 160px;
@@ -24,21 +47,9 @@ header{
     position: fixed; bottom: 200px; /* 20px makes them apart from each other but 200opx closer what the fuck */
 }
 
-nav{
-    width: 160px;
-    height: 320px;
-    position: absolute;
-    right: 50px;
-    top: 200px;
-    background-color: bisque;
-    border-radius: 20px;
-}
 
 footer{
-    width: 1280px;
-    height: 240px;
-    background-color: darkorange;
-    margin: auto;
+    
 }
 
 /*body{
