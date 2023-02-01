@@ -1,20 +1,20 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(26, 26, 26);
 }
 
 header{
     width: 361px;
     height: 180px;
-    background-color: green;
     text-align: left;
     margin: left;
-    border-radius: 20px;
 }
 
 .aboutus{
     background-color: rgba(0, 0, 0, 0.193);
     text-align: left;
     position: absolute;
+    left: 400px;
+    top: 20px;
     right: 0;
     width: 360px;
    }
@@ -49,7 +49,10 @@ header{
 
 
 footer{
-    
+    position: absolute;
+    bottom: 20px;
+    background-color: aqua;
+    right: 1400px;
 }
 
 /*body{
