@@ -7,27 +7,35 @@ header{
     height: 180px;
     text-align: left;
     margin: left;
+    background-image: url(/images/smolev.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 270px;
 }
 
 .aboutus{
-    background-color: rgba(0, 0, 0, 0.193);
     text-align: left;
     position: absolute;
     left: 400px;
     top: 20px;
     right: 0;
-    width: 360px;
+    width: 400px;
    }
 
    a{
-    padding: 20px;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
    }
 
    main{
-    background-color: white;
+    color: white;
+    font-size: 70px;
     padding-bottom: 20px;
-    position: absolute;
-    left: auto;
+    margin: auto;
+    width: 50%;
+    content: "\a";
+    white-space: pre;
    }
    
 .aside{
