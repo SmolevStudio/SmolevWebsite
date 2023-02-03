@@ -59,9 +59,18 @@ header{
 footer{
     position: absolute;
     bottom: 20px;
-    background-color: aqua;
-    right: 1400px;
+    background-color: rgb(0, 204, 204);
+    right: 900px;
+    color: black;
+    border-radius: 20px;
+    height: 5%;
 }
+
+.text{
+    color: black;
+    margin: auto;
+}
+
 
 /*body{
     margin: 0px;
