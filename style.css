@@ -11,21 +11,52 @@ header{
     background-repeat: no-repeat;
     width: 400px;
     height: 270px;
+    position: relative;
 }
 
-.aboutus{
-    text-align: left;
-    position: absolute;
-    left: 400px;
-    top: 20px;
-    right: 0;
-    width: 400px;
+    div.mobile{
+      font-size: 140%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    div.mobile a:link, div.mobile a:visited{
+      color: white;
+      text-decoration: none;
+    }
+
+   .topnav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: -400px;
+    top: -200px;
+    font-size: 20px;
+    margin: 20px;
+    display: none;
+   }
+   
+   .topnav a:hover{
+    background-color: blue;
    }
 
-   a{
-    padding: 30px;
-    color: white;
-    font-size: 20px;
+   @media (min-width: 600px){
+    div li{
+      border: 0;
+      width: 33%;
+    }
+
+    div li#here{
+      padding: 0.5em 0;
+      color: white;
+      display: block;
+    }
+    
+    div {display: block;}
+
+    .mobile {display: none;}
+
    }
 
    main{
